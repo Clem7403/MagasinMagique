@@ -52,7 +52,7 @@ class Magasin {
 
     }
 
-    public void updateQuality() {// Pour la qualité des objets
+   /* public void updateQuality() {// Pour la qualité des objets
         for (int i = 0; i < items.length; i++) { //on parcour le tableau d'item
             if (!items[i].name.equals("Comté") //Les exceptions pour le comté
                     && !items[i].name.equals("Pass VIP Concert")) { //Et le passe VIP qui gagne en qualité avec le temps
@@ -80,7 +80,7 @@ class Magasin {
                     }
                 }
             }
-ds
+
             if (!items[i].name.equals("Kryptonite")) { // pour tout les items sauf kryptonite
                 items[i].sellIn = items[i].sellIn - 1; //la date de péremption diminue de 1
             }
@@ -103,5 +103,5 @@ ds
                 }
             }
         }
-    }
+    }*/
 }
